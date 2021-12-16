@@ -1,0 +1,77 @@
+
+.JabiDonateBorder{
+	width: 200px;
+	height: auto;
+	text-align: center;
+	background-color: #fff;
+	color: #737373;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	border-radius: 10px;
+	border:dashed 1px #eaeaea;
+	padding-bottom: 20px;
+}
+
+.JabiDonateTitle{
+	width: 200px;
+	text-align: center;
+	color: #737373;
+	display: block;
+	margin-top: 20px;
+	font-size: 16px;
+}
+
+.JabiDonatImg{
+	display: block;
+	width: 160px;
+	height: 160px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 100px;
+}
+
+.JabiDonateTis{
+	width: 200px;
+	text-align: center;
+	color: #737373;
+	display: block;
+	margin-top: 0px;
+	font-size: 12px;
+}
+
+.JabiDonateBtn{
+	width: 160px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background: #f6f6f6;
+	border-radius: 40px;
+	color: #616161;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+@media (prefers-color-scheme: dark) {
+	.JabiDonateBorder{
+		background-color: #1b1f24;
+        border:dashed 1px #4d6565;
+	}
+	
+	.JabiDonateTitle{
+	color: #617c80;
+}
+	.JabiDonateTis{
+	color: #617c80;
+}
+	.JabiDonateBtn{
+	background: #292e32;
+		color: #9A9CA9;
+}
+
+}
+
+
